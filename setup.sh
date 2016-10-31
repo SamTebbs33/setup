@@ -1,3 +1,4 @@
+echo "This script requires homebrew for macOS and apt-get for linux distros"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
         alias get="sudo apt-get install"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
